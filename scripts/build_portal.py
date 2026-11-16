@@ -313,11 +313,23 @@ def build(root=ROOT, output_override=None):
         date_value(post.get('published_at'), tz)
         channel = channel_map[post['channel_id']]
         post['channel'] = channel
+        post['channel_title'] = channel.get('title', '')
+        post['embed'] = post['url'].removeprefix('https://t.me/')
         input_hash = analysis_hash(config, post)
         post['participant_ids'] = list(dict.fromkeys(post.get('participant_ids', []) + channel.get('participant_ids', [])))
         post['people_ids'] = list(dict.fromkeys(post.get('people_ids', []) + channel.get('people_ids', [])))
-        post['excerpt'] = excerpt(post.get('text', ''), 45)
-        post['photos_view'] = [v for x in post.get('photos', []) if (v := asset(x, out))]
+        raw_text = post.get('text', '').strip()
+        if re.fullmatch(r'pinned a (?:photo|video|document|voice message)', raw_text, re.I):
+            raw_text = ''
+        if not raw_text:
+            if post.get('display_photos'):
+                raw_text = 'Публикация с фото. Полная подпись — в оригинале.'
+            elif post.get('has_video'):
+                raw_text = 'Видео из публикации. Подробности — в оригинале.'
+            else:
+                raw_text = 'Публикация без текстовой подписи. Откройте оригинал.'
+        post['excerpt'] = excerpt(raw_text, 45)
+        post['photos_view'] = [v for x in post.get('display_photos', post.get('photos', [])) if (v := asset(x, out))]
         a = analyses.get(post['id'], {})
         kind_labels = {'giveaway': 'Розыгрыш', 'prize_contest': 'Призовой конкурс', 'gift_for_visit': 'Подарок за визит', 'discount': 'Скидка', 'other': '', 'unclear': 'Условия уточняются'}
         relevance_labels = {'current_expo': 'Текущая выставка', 'online_only': 'Онлайн', 'other_event': 'Другое событие', 'unclear': 'Связь не уточнена'}
@@ -383,7 +395,7 @@ def build(root=ROOT, output_override=None):
 
     labels = {key: value[1] for key, value in MODULES.items()}
     labels.update(config.get('labels', {}))
-    nav = [('index.html', 'Главная')] + [(MODULES[k][0], labels[k]) for k in MODULES if k in active]
+    nav = [('index.html', 'Главная')] + [(MODULES[k][0], labels[k]) for k in selected if k in active]
     style = (root / 'portal_web/style.css').read_bytes()
     script = (root / 'portal_web/portal.js').read_bytes()
     env = Environment(loader=FileSystemLoader(root / 'portal_web'), autoescape=select_autoescape(['html', 'xml']))
@@ -423,7 +435,7 @@ def build(root=ROOT, output_override=None):
     for name in MODULES:
         if name not in active or name == 'participants':
             continue
-        render(MODULES[name][0], f'{name}.html' if name in ('people', 'program', 'posts', 'giveaways', 'articles', 'map', 'products') else 'listing.html',
+        render(MODULES[name][0], f'{name}.html' if name in ('people', 'program', 'posts', 'giveaways', 'articles', 'map', 'products', 'services', 'videos') else 'listing.html',
                labels[name], module=name, items=rows.get(name, []))
     for article in rows['articles']:
         render(article['page'], 'article.html', article['title'], item=article, description=article.get('summary') or article['title'])

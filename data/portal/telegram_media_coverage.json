@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-16T10:56:09+00:00",
+  "channels": 31,
+  "posts": 305,
+  "public_preview_messages": 485,
+  "photo_urls": 455,
+  "local_photo_previews": 253,
+  "videos": 47,
+  "statuses": {
+    "saved": 253,
+    "no_media": 51,
+    "video_without_thumbnail": 1
+  },
+  "missing_post_count_by_channel": {},
+  "channel_errors": {},
+  "notes": "Only public Telegram preview media is used; each image card links to its original post."
+}

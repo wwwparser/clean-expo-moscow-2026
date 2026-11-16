@@ -15,17 +15,28 @@
   "output_dir": "docs",
   "modules": [
     "participants",
+    "services",
     "products",
     "program",
     "people",
     "posts",
     "giveaways",
+    "videos",
+    "articles",
     "map"
   ],
   "feed_count": 10,
   "labels": {
     "participants": "Участники",
-    "products": "Продукция"
+    "services": "IT и услуги",
+    "products": "Продукция",
+    "program": "Программа",
+    "people": "Спикеры",
+    "posts": "Лента",
+    "giveaways": "Розыгрыши",
+    "videos": "Видео",
+    "articles": "Аналитика",
+    "map": "Схема"
   },
   "telegram_coverage": {
     "channels": 31,

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-16",
+  "participants_screened": 117,
+  "included": 5,
+  "method": "Проверка открытых сайтов участников и официальной программы; это редакционная выборка, а не полный список услуг.",
+  "entries": [
+    {
+      "participant_id": "exhibitor-115049",
+      "stand": "A129",
+      "status": "included",
+      "reason": "Автоматизация химчистки"
+    },
+    {
+      "participant_id": "cleannow",
+      "stand": "A625",
+      "status": "included",
+      "reason": "Каталог подрядчиков"
+    },
+    {
+      "participant_id": "exhibitor-115177",
+      "stand": "A630",
+      "status": "included",
+      "reason": "Роботизация и интеграция"
+    },
+    {
+      "participant_id": "exhibitor-115240",
+      "stand": "A351",
+      "status": "included",
+      "reason": "Площадки и маркетинг"
+    },
+    {
+      "participant_id": "exhibitor-115440",
+      "stand": "A138",
+      "status": "included",
+      "reason": "Профессиональные медиа"
+    }
+  ]
+}
