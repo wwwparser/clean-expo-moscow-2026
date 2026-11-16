@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+.env
+*.pyc
+.expo-cache/
+.playwright-mcp/
+IDEA.md
+artifacts/six-visitor-audit/2026-11-16/
+artifacts/six-visitor-audit/2026-11-16-*.png
+artifacts/ui-verification/2026-11-16/
+data/raw/
+data/attachments/
+data/portal/posts.json
+data/portal/telegram_posts.jsonl
+data/portal/post_analysis.jsonl
+*.part

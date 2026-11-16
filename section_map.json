@@ -1,0 +1,121 @@
+[
+  {
+    "section_type": "official_home",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/",
+    "note": "Даты 17–19 ноября 2026, место проведения. На официальной странице футера найдена ссылка организатора на Telegram CleanExpoRussia.",
+    "edition": 2026,
+    "label": "Главная выставки",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "participant_catalog",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/exhibitor-list.aspx",
+    "note": "Каталог с поиском и постраничной навигацией; карточки проверены также по интерактивному плану.",
+    "edition": 2026,
+    "label": "Каталог участников 2026",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/exhibitor-list.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "floorplan",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/exposition.aspx",
+    "note": "117 строк с участниками, ID и стендами; ссылка на карту и список участников.",
+    "edition": 2026,
+    "label": "Интерактивный план 2026",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/exposition.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "product_catalog",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/products.aspx",
+    "note": "18 страниц, 418 карточек продукции; выгружены названия и связи с компаниями только по ID источника.",
+    "edition": 2026,
+    "label": "Каталог продукции 2026",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/products.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "program",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/business-program/events.aspx",
+    "note": "Страница загружает расписание из встроенных публичных данных: 40 мероприятий; одно событие содержит конфликт даты в исходных полях.",
+    "edition": 2026,
+    "label": "Деловая программа",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/business-program/events.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "speakers",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/about/speakers.aspx",
+    "note": "Публичный список спикеров; связанный программный источник содержит 113 карточек с именами и должностями.",
+    "edition": 2026,
+    "label": "Спикеры",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/about/speakers.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "categories",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/about/sections.aspx",
+    "note": "Официальные тематические разделы и направления выставки.",
+    "edition": 2026,
+    "label": "Разделы выставки",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/about/sections.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "news",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/press/news.aspx",
+    "note": "Официальный пресс-центр; ссылку найдено в навигации сайта.",
+    "edition": 2026,
+    "label": "Новости выставки",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/press/news.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "reviews",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/about/reviews.aspx",
+    "note": "Официальная страница отзывов участников и посетителей.",
+    "edition": 2026,
+    "label": "Отзывы",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/about/reviews.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "sponsors",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/about/support/sponsors.aspx",
+    "note": "Официальная страница партнёров и спонсоров.",
+    "edition": 2026,
+    "label": "Партнёры и спонсоры",
+    "final_url": "https://www.cleanexpo-moscow.ru/ru-RU/about/support/sponsors.aspx",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "telegram_channel",
+    "url": "https://t.me/CleanExpoRussia",
+    "note": "Публичный канал связан с официальным сайтом. Получены 10 последних сообщений; это ограниченный срез.",
+    "edition": 2026,
+    "label": "Публичный Telegram организатора",
+    "final_url": "https://t.me/CleanExpoRussia",
+    "checked_at": "2026-11-16T10:55+03:00",
+    "found_on": "Официальный сайт CleanExpo Moscow"
+  },
+  {
+    "section_type": "telegram_participant_channels",
+    "url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/exposition.aspx",
+    "note": "В 114 карточках участников указаны сайты; просмотрены доступные главные страницы и страницы контактов. Найдены 44 Telegram-ссылки/пользовательских адреса на официальных сайтах, 30 имеют доступные публичные Telegram-превью; 23 запроса к сайту завершились ошибкой. Плюс публичный канал организатора. Собран ограниченный срез до 10 последних публикаций на канал; из 305 сообщений 28 не содержат читаемого текста. Участие в каналах и отправка сообщений не выполняли.",
+    "edition": 2026,
+    "label": "Телеграм участников",
+    "checked_at": "2026-11-16T11:19+03:00",
+    "found_on": "Официальные сайты участников и страницы контактов; связь подтверждена найденной ссылкой и публичным Telegram-превью."
+  }
+]

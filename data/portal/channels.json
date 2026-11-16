@@ -1,0 +1,472 @@
+[
+  {
+    "id": "cleanexpo-russia",
+    "title": "CleanExpo Russia",
+    "url": "https://t.me/CleanExpoRussia",
+    "participant_ids": [],
+    "sources": [
+      {
+        "title": "Ссылка на Telegram-канал организатора с официального сайта CleanExpo",
+        "url": "https://www.cleanexpo-moscow.ru/ru-RU/",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "cleannowrussia",
+    "title": "CleanNow",
+    "url": "https://t.me/cleannowrussia",
+    "participant_ids": [
+      "cleannow"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://cleannow.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "acgm_russia",
+    "title": "ACGM | Комплектующие для поломоечных машин",
+    "url": "https://t.me/acgm_russia",
+    "participant_ids": [
+      "acgm"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://scrubberacgm.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "koblenzpartner",
+    "title": "Koblenz & Partner",
+    "url": "https://t.me/koblenzpartner",
+    "participant_ids": [
+      "koblenz-intact",
+      "koblenz-partner"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.ikoblenz.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "nuovamartini",
+    "title": "NUOVA MARTINI s.r.l",
+    "url": "https://t.me/nuovamartini",
+    "participant_ids": [
+      "nuova-martini"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://martini-srl.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "qrobotics",
+    "title": "QRobotics | Роботы для уборки",
+    "url": "https://t.me/qrobotics",
+    "participant_ids": [
+      "qrobotics"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://qrobotics.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "robort_by_3logic",
+    "title": "Robort от 3Logic Group",
+    "url": "https://t.me/robort_by_3logic",
+    "participant_ids": [
+      "robort-3logic-group"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://robort.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "agbis",
+    "title": "АГБИС новости",
+    "url": "https://t.me/agbis",
+    "participant_ids": [
+      "exhibitor-115049"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.agbis.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "faeton_clean",
+    "title": "Фаэтон | Про клининговое оборудование",
+    "url": "https://t.me/faeton_clean",
+    "participant_ids": [
+      "wellland"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.wellland.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "artixrobots",
+    "title": "Всё о роботах для бизнеса | «Артикс Робот» 🚀",
+    "url": "https://t.me/artixrobots",
+    "participant_ids": [
+      "exhibitor-115026"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://artixrobots.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "aruk_ru",
+    "title": "АРУК - Ассоциация Русских Уборочных Компаний",
+    "url": "https://t.me/aruk_ru",
+    "participant_ids": [
+      "exhibitor-115475"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://arukrus.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "cleanprice",
+    "title": "cleanprice",
+    "url": "https://t.me/cleanprice",
+    "participant_ids": [
+      "exhibitor-115456"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.cleanprice.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "oguretznetv",
+    "title": "Следуй за Огурцом",
+    "url": "https://t.me/oguretznetv",
+    "participant_ids": [
+      "exhibitor-115785"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://cst-rus.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "dvaandreya",
+    "title": "Два Андрея - производство и продажа упаковки",
+    "url": "https://t.me/dvaandreya",
+    "participant_ids": [
+      "exhibitor-115868"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://2-a.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "fizioterapiya_stl",
+    "title": "Компания «СТЛ» | Эксперт аппаратной физиотерапии",
+    "url": "https://t.me/fizioterapiya_stl",
+    "participant_ids": [
+      "exhibitor-115887"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.stl-comp.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "merkatorholding",
+    "title": "Меркатор",
+    "url": "https://t.me/merkatorholding",
+    "participant_ids": [
+      "exhibitor-115239"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.merkatorgroup.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "himstirka",
+    "title": "Журнал \" Мир Химчистки и Прачечной\"",
+    "url": "https://t.me/himstirka",
+    "participant_ids": [
+      "exhibitor-115440"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.himstirka.su",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "prorakel",
+    "title": "Ракели и Скребки",
+    "url": "https://t.me/prorakel",
+    "participant_ids": [
+      "exhibitor-115611"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://prorakel.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "prof_equip",
+    "title": "PROFEQUIP",
+    "url": "https://t.me/prof_equip",
+    "participant_ids": [
+      "exhibitor-115052"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://prof-equip.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "robots2business",
+    "title": "R2B stories",
+    "url": "https://t.me/robots2business",
+    "participant_ids": [
+      "2"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://r2b.company",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "uniformarusana",
+    "title": "Русана | униформа, спецодежда, мерч",
+    "url": "https://t.me/uniformarusana",
+    "participant_ids": [
+      "exhibitor-115926"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://uniforma-rusana.com",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "serv_plus",
+    "title": "Сервис Плюс. Технологии ритейла",
+    "url": "https://t.me/serv_plus",
+    "participant_ids": [
+      "exhibitor-115181"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://www.servplus.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "sigur_magazin",
+    "title": "Сигур магазин - всё для клининга",
+    "url": "https://t.me/sigur_magazin",
+    "participant_ids": [
+      "exhibitor-115132"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://sigur.su",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "tcompany_pro",
+    "title": "Т-КОМПАНИ",
+    "url": "https://t.me/tcompany_pro",
+    "participant_ids": [
+      "exhibitor-114979"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://t-co.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "cinalab",
+    "title": "CINALAB",
+    "url": "https://t.me/cinalab",
+    "participant_ids": [
+      "exhibitor-114986"
+    ],
+    "sources": [
+      {
+        "title": "Telegram-ссылка на официальном сайте участника",
+        "url": "https://cinalab.ru",
+        "date": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "vektorm76ru",
+    "title": "Вектор М | производство пакетов",
+    "url": "https://t.me/vektorm76ru",
+    "participant_ids": [
+      "exhibitor-115045"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/vektorm76ru",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  },
+  {
+    "id": "gerusspb",
+    "title": "Компания Герус",
+    "url": "https://t.me/gerusspb",
+    "participant_ids": [
+      "exhibitor-115484"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/gerusspb",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  },
+  {
+    "id": "gk_samson",
+    "title": "ГК САМСОН",
+    "url": "https://t.me/gk_samson",
+    "participant_ids": [
+      "exhibitor-115848"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/gk_samson",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  },
+  {
+    "id": "robotsinwork",
+    "title": "ТехСнаб | Сервисные роботы",
+    "url": "https://t.me/robotsinwork",
+    "participant_ids": [
+      "nubi"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/robotsinwork",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  },
+  {
+    "id": "grc_smirnov",
+    "title": "Группа компаний Смирновъ",
+    "url": "https://t.me/grc_smirnov",
+    "participant_ids": [
+      "exhibitor-115136"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/grc_smirnov",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  },
+  {
+    "id": "expertaii",
+    "title": "ЭкспертИИ",
+    "url": "https://t.me/expertaii",
+    "participant_ids": [
+      "exhibitor-115677"
+    ],
+    "sources": [
+      {
+        "title": "Публичное Telegram-превью канала, связанное с официальным сайтом участника",
+        "url": "https://t.me/s/expertaii",
+        "date": "2026-11-16",
+        "note": "Ссылка на канал обнаружена на официальном сайте участника."
+      }
+    ]
+  }
+]

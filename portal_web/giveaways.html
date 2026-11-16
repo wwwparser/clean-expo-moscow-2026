@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as m %}
+{% block body %}
+<h1>{{ labels.giveaways }}</h1>
+<p class="muted">Условия сверены с публичными сообщениями на дату среза {{ config.checked_at|date_text }} · {{ config.timezone }}. Срок участия, время розыгрыша и дата результатов — разные поля. Неуказанные условия оставлены неизвестными.</p>
+{% if config.get('telegram_coverage') %}
+<section class="card">
+  <h2>Результаты анализа</h2>
+  <p>Проверено {{ config.telegram_coverage.reviewed_posts }} из {{ config.telegram_coverage.posts }} публикаций из {{ config.telegram_coverage.channels }} Telegram-канала организатора и участников. В срезе найдено {{ config.telegram_coverage.confirmed_prize_events }} уникальных объявлений о подарках, конкурсах или розыгрышах, прямо связанных с CleanExpo Moscow 2026.</p>
+  <p>{{ config.telegram_coverage.unreadable_posts }} публикаций не содержали читаемого текста. Объявление не означает, что приз уже вручили. Для кампаний с неполными правилами это отмечено в карточке. Срез ограничен доступными публичными превью и не охватывает всю историю каналов.</p>
+  <p>Ссылки на каналы искались на официальных сайтах участников и их доступных страницах контактов. Сайты указаны в {{ config.telegram_coverage.websites_checked }} карточках; {{ config.telegram_coverage.website_errors }} запроса завершились ошибкой, поэтому про эти сайты нельзя сделать вывод, что канала там нет.</p>
+  <p><a href="feed.html">Открыть публикации и оригиналы →</a></p>
+</section>
+{% endif %}
+{% set kind_labels = {'giveaway':'Случайный розыгрыш','prize_contest':'Призовой конкурс','gift_for_visit':'Подарок за визит','discount':'Скидка'} %}
+{% set relevance_labels = {'current_expo':'CleanExpo Moscow 2026','online_only':'Онлайн-кампания','other_event':'Другая выставка или событие','unclear':'Связь с выставкой уточняется'} %}
+{% for group,items in giveaway_groups %}
+<section>
+  <h2>{{ group }}</h2>
+  <div class="cards3">
+  {% for g in items %}
+    <article class="card giveaway-card">
+      <p class="kicker">{{ kind_labels.get(g.get('kind'), 'Объявление') }}</p>
+      <h3>{{ g.title }}</h3>
+      <p class="tag">{{ relevance_labels.get(g.get('relevance'), 'Связь с выставкой не уточнена') }}</p>
+      <p><b>{{ g.when|date_text if g.get('when') else 'Дата и время уточняются' }}</b>{% if g.date_only %} · время не указано{% endif %}</p>
+      {% if g.get('occurrences') %}<p><b>Даты по объявлению:</b> {% for occurrence in g.occurrences %}{{ occurrence.date|date_text }}{% if occurrence.get('time') %} {{ occurrence.time }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}. Время не указано, если рядом с датой его нет.</p>{% endif %}
+      {% if g.get('stand') %}<p>Стенд {{ g.stand }}{% if g.get('hall') %} · {{ g.hall }}{% endif %}</p>{% endif %}
+      {% if g.get('prizes') %}<p><b>Призы и предложения:</b> {{ g.prizes|join(', ') }}</p>{% endif %}
+      {% for c in g.get('conditions',[]) %}<p>{{ c }}</p>{% endfor %}
+      {% if g.get('entry_deadline') %}<p>Приём заявок до {{ g.entry_deadline|date_text }}.</p>{% endif %}
+      {% if g.get('draw_at') %}<p>Розыгрыш: {{ g.draw_at|date_text }}.</p>{% endif %}
+      {% if g.get('results_at') %}<p>Объявление результатов: {{ g.results_at|date_text }}.</p>{% endif %}
+      {% if g.get('offer_until') %}<p>Срок предложения: {{ g.offer_until|date_text }}.</p>{% endif %}
+      {% if g.get('status') == 'completed' %}<p class="small muted">Источник сообщает, что событие завершилось.</p>{% elif g.get('status') in ['needs_details','needs_confirmation'] %}<p class="small muted">Правила или детали требуют уточнения.</p>{% endif %}
+      {% if g.get('note') %}<p class="small muted">{{ g.note }}</p>{% endif %}
+      {{ m.linked(g,'',participant_map,person_map) }}
+      {{ m.bibliography(g.sources) }}
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}
+{% endblock %}

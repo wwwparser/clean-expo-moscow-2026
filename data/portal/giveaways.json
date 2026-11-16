@@ -1,0 +1,690 @@
+[
+  {
+    "id": "event-cb85cb0ba82bc7cc4836",
+    "event_key": "sigur-cleanexpo-standard-ticket-2026",
+    "title": "Бесплатный билет «Стандарт» по промокоду SIGUR",
+    "kind": "discount",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "На официальном сайте выставки при регистрации билета «Стандарт» ввести промокод SIGUR."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": "Снижение цены явно подтверждено сравнением с 600 ₽ на сайте и 1000 ₽ в кассе. Даты и часы выставки не считаются сроком действия промокода; стенд компании A309 не является местом оформления электронного билета.",
+    "missing_fields": [
+      "offer_until"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "sigur_magazin/5685"
+    ],
+    "participant_ids": [
+      "exhibitor-115132"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала sigur_magazin",
+        "url": "https://t.me/sigur_magazin/5685",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-95e1d35f4ba11d817bbc",
+    "event_key": "nuova-extra-discount-10-season",
+    "title": "Дополнительная скидка 10% на продукцию NUOVA MARTINI",
+    "kind": "discount",
+    "relevance": "unclear",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "На всю продукцию; начало и срок действия не датированы."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "NUOVAMARTINI/143"
+    ],
+    "participant_ids": [
+      "nuova-martini"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала nuovamartini",
+        "url": "https://t.me/NUOVAMARTINI/143",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-8b219d0f74dfc3f80e16",
+    "event_key": "cleanexpo-marathon-prizes-2026",
+    "title": "Ежедневный «Марафон призов» CleanExpo Moscow 2026",
+    "kind": "giveaway",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "Подробности, призы и условия участия в сообщении не приведены."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "himstirka/4781"
+    ],
+    "participant_ids": [
+      "exhibitor-115440"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала himstirka",
+        "url": "https://t.me/himstirka/4781",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": [
+      {
+        "date": "2026-11-17",
+        "time": null,
+        "timezone": "Europe/Moscow"
+      },
+      {
+        "date": "2026-11-18",
+        "time": null,
+        "timezone": "Europe/Moscow"
+      },
+      {
+        "date": "2026-11-19",
+        "time": null,
+        "timezone": "Europe/Moscow"
+      }
+    ]
+  },
+  {
+    "id": "event-8285be01cf7995fa7d1a",
+    "event_key": "tcompany-krasnodar-discount-draw-2024",
+    "title": "Интерактивный розыгрыш скидок Т-КОМПАНИ",
+    "kind": "giveaway",
+    "relevance": "other_event",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "скидки — размер не указан"
+    ],
+    "conditions": [],
+    "stand": null,
+    "hall": null,
+    "status": "needs_confirmation",
+    "note": "Анонс относится к другому городу и выпуску. Правила интерактива и способ случайного выбора не раскрыты; механика требует подтверждения.",
+    "missing_fields": [
+      "draw_at",
+      "stand",
+      "conditions",
+      "discount_amount",
+      "selection_method"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "tcompany_pro/83"
+    ],
+    "participant_ids": [
+      "exhibitor-114979"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала tcompany_pro",
+        "url": "https://t.me/tcompany_pro/83",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-7dd09524f507b145b46e",
+    "event_key": "oguretz-funny-inscription",
+    "title": "Конкурс смешных надписей",
+    "kind": "prize_contest",
+    "relevance": "unclear",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "фирменный подарок"
+    ],
+    "conditions": [
+      "Написать в комментариях надпись для рулона; организатор выбирает самую смешную."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [
+      "exhibition_edition",
+      "starts_at",
+      "entry_deadline",
+      "results_at",
+      "stand"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "oguretzneTV/721"
+    ],
+    "participant_ids": [
+      "exhibitor-115785"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала oguretznetv",
+        "url": "https://t.me/oguretzneTV/721",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-61d170c7fa16c4e64b6d",
+    "event_key": "aruk-delegates-gift-2026",
+    "title": "Подарок каждому участнику делегации АРУК",
+    "kind": "gift_for_visit",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "подарок от партнёров"
+    ],
+    "conditions": [
+      "Для зарегистрированных участников делегации; дата и порядок вручения не указаны.",
+      "Регистрация в делегацию завершается 13 ноября; отдельный дедлайн участия в розыгрыше не указан."
+    ],
+    "stand": "А249",
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "aruk_ru/464"
+    ],
+    "participant_ids": [
+      "exhibitor-115475"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала aruk_ru",
+        "url": "https://t.me/aruk_ru/464",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-8c77c1cc1d9881e229e4",
+    "event_key": "rusana-pir-2026-gifts",
+    "title": "Подарок по промокоду РУСАНА26 и дизайн вышивки",
+    "kind": "gift_for_visit",
+    "relevance": "other_event",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "Подарок — состав не указан",
+      "Бесплатная разработка дизайна вышивки для бренда"
+    ],
+    "conditions": [
+      "Посетить стенд 2А24 ПИР-Экспо 2026.",
+      "Для подарка использовать промокод РУСАНА26."
+    ],
+    "stand": "2А24",
+    "hall": null,
+    "status": "needs_details",
+    "note": "Другая выставка. Период акции дан текстом, время и отдельный срок получения подарка не указаны.",
+    "missing_fields": [
+      "gift_details",
+      "offer_until"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "uniformarusana/505"
+    ],
+    "participant_ids": [
+      "exhibitor-115926"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала uniformarusana",
+        "url": "https://t.me/uniformarusana/505",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-fa2f507f689e324edb4b",
+    "event_key": "robort-name-robodog-2026-10",
+    "title": "Розыгрыш Petoi Bittle STEM Kit за кличку робопса",
+    "kind": "giveaway",
+    "relevance": "online_only",
+    "when": null,
+    "draw_at": "2026-10-08",
+    "entry_deadline": "2026-10-07T23:59:00+03:00",
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "Petoi Bittle STEM Kit"
+    ],
+    "conditions": [
+      "Подписаться на канал.",
+      "Оставить кличку в комментариях именно под конкурсным постом до 23:59 мск.",
+      "Подписка проверяется при подведении итогов."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": "«Сегодня» и «завтра» разрешены относительно публикации 7 октября 2026 года, часовой пояс мск указан в тексте. Пост 163 сообщает о завершении и выбранном победителе. Пост сообщает о завершённом выборе победителя; дата публикации результата не подставляется в неизвестное фактическое время розыгрыша.",
+    "missing_fields": [
+      "draw_clock_time",
+      "draw_at",
+      "results_at"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "robort_by_3logic/160",
+      "robort_by_3logic/163"
+    ],
+    "participant_ids": [
+      "robort-3logic-group"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала robort_by_3logic",
+        "url": "https://t.me/robort_by_3logic/160",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "Публичная публикация канала robort_by_3logic",
+        "url": "https://t.me/robort_by_3logic/163",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-ed17d4034ba2b0d6a23f",
+    "event_key": "aruk-delegates-giveaway-2026",
+    "title": "Розыгрыш профессиональных призов для делегатов АРУК",
+    "kind": "giveaway",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "оборудование",
+      "уборочный инвентарь",
+      "средства для клининга"
+    ],
+    "conditions": [
+      "Для зарегистрированных участников делегации. Подробности и условия обещали объявить 17 ноября на стенде АРУК.",
+      "Регистрация в делегацию завершается 13 ноября; отдельный дедлайн участия в розыгрыше не указан."
+    ],
+    "stand": "А249",
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "aruk_ru/464"
+    ],
+    "participant_ids": [
+      "exhibitor-115475"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала aruk_ru",
+        "url": "https://t.me/aruk_ru/464",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-a3a7393c0710b59c889e",
+    "event_key": "faeton-wellland-max-giveaway",
+    "title": "Розыгрыш трёх пылеводососов Wellland в MAX",
+    "kind": "giveaway",
+    "relevance": "online_only",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "три пылеводососа Wellland"
+    ],
+    "conditions": [
+      "Розыгрыш анонсирован в MAX; правила и сроки — по исходной ссылке."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_confirmation",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "faeton_clean/1081"
+    ],
+    "participant_ids": [
+      "wellland"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала faeton_clean",
+        "url": "https://t.me/faeton_clean/1081",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-05a325bd3d099bd7fbb2",
+    "event_key": "rusana-pir-2026-first-order",
+    "title": "Скидка 10% на первый оптовый заказ",
+    "kind": "discount",
+    "relevance": "other_event",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "Посетить стенд 2А24 ПИР-Экспо 2026.",
+      "Подать заявку на выставке на первый оптовый заказ."
+    ],
+    "stand": "2А24",
+    "hall": null,
+    "status": "needs_details",
+    "note": "Другая выставка; срок размещения или оплаты самого заказа не указан.",
+    "missing_fields": [
+      "offer_until",
+      "order_deadline"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "uniformarusana/505"
+    ],
+    "participant_ids": [
+      "exhibitor-115926"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала uniformarusana",
+        "url": "https://t.me/uniformarusana/505",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-f90bca1726e1dda89eb0",
+    "event_key": "faeton-pir-ghibli-20-2026",
+    "title": "Скидка 20% на продукцию Ghibli для посетителей ПИР Экспо",
+    "kind": "discount",
+    "relevance": "other_event",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "Скидка заявлена посетителям выставки; точные даты и срок действия не указаны."
+    ],
+    "stand": "M50",
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "faeton_clean/1071"
+    ],
+    "participant_ids": [
+      "wellland"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала faeton_clean",
+        "url": "https://t.me/faeton_clean/1071",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-aae5abd54f0a4ba905bb",
+    "event_key": "prorakel-test-set-february",
+    "title": "Скидка 50% на тестовый набор инструментов",
+    "kind": "discount",
+    "relevance": "unclear",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "Заказать тестовый набор до 10 февраля."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": "Год в формулировке срока не указан; дата публикации сама по себе не подтверждает связь с выставкой.",
+    "missing_fields": [
+      "offer_until",
+      "exhibition_edition",
+      "order_terms"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "prorakel/116"
+    ],
+    "participant_ids": [
+      "exhibitor-115611"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала prorakel",
+        "url": "https://t.me/prorakel/116",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-42bef34f07b185885333",
+    "event_key": "artix-webinar-pilot-discount-2026-11",
+    "title": "Скидка участникам вебинара «Роботы выходят на смену»",
+    "kind": "discount",
+    "relevance": "online_only",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [],
+    "conditions": [
+      "Скидка на пилотный проект роботизации; размер и срок не указаны."
+    ],
+    "stand": null,
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "artixrobots/19",
+      "artixrobots/20"
+    ],
+    "participant_ids": [
+      "exhibitor-115026"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала artixrobots",
+        "url": "https://t.me/artixrobots/19",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "Публичная публикация канала artixrobots",
+        "url": "https://t.me/artixrobots/20",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-2917b5343c050a076310",
+    "event_key": "agbis-automation-stories-shopper-2026",
+    "title": "Стильный шоппер после «Историй автоматизации»",
+    "kind": "gift_for_visit",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "шоппер"
+    ],
+    "conditions": [
+      "Зайти на стенд А119 сразу после встречи «Историй автоматизации»."
+    ],
+    "stand": "А119",
+    "hall": null,
+    "status": "needs_details",
+    "note": null,
+    "missing_fields": [],
+    "review_status": "reviewed",
+    "post_ids": [
+      "agbis/2690",
+      "himstirka/4789"
+    ],
+    "participant_ids": [
+      "exhibitor-115049",
+      "exhibitor-115440"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала agbis",
+        "url": "https://t.me/agbis/2690",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "Публичная публикация канала himstirka",
+        "url": "https://t.me/himstirka/4789",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  },
+  {
+    "id": "event-d3f0929ec7bed7ddcdc3",
+    "event_key": "oguretz-million-photo-2026",
+    "title": "Фотоконкурс «МИЛЛИОН РУБЛЕИ»",
+    "kind": "giveaway",
+    "relevance": "current_expo",
+    "when": null,
+    "draw_at": null,
+    "entry_deadline": null,
+    "results_at": null,
+    "offer_until": null,
+    "prizes": [
+      "МИЛЛИОН РУБЛЕИ"
+    ],
+    "conditions": [
+      "Сфотографироваться с ростовым манекеном на стенде А230.",
+      "Опубликовать фото в комментариях к исходному посту с порядковым номером участника.",
+      "Один участник — одна конкурсная фотография.",
+      "Победитель выбирается генератором неповторяемых чисел после выставки."
+    ],
+    "stand": "А230",
+    "hall": null,
+    "status": "needs_details",
+    "note": "В посте указан период 17–20 ноября, который расходится с датами выставки 17–19 ноября. Срок приёма и дата розыгрыша требуют подтверждения; исходное написание приза «РУБЛЕИ» сохранено без исправления и без проверки денежной ценности.",
+    "missing_fields": [
+      "draw_at",
+      "entry_deadline",
+      "results_at",
+      "prize_details"
+    ],
+    "review_status": "reviewed",
+    "post_ids": [
+      "oguretzneTV/722"
+    ],
+    "participant_ids": [
+      "exhibitor-115785"
+    ],
+    "people_ids": [],
+    "sources": [
+      {
+        "title": "Публичная публикация канала oguretznetv",
+        "url": "https://t.me/oguretzneTV/722",
+        "date": "2026-11-16"
+      }
+    ],
+    "occurrences": []
+  }
+]
