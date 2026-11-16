@@ -105,6 +105,8 @@ def main():
     products = json.loads((RAW / "products-collected.json").read_text(encoding="utf-8"))
     for i, item in enumerate(products):
         item["id"] = f"product-{i + 1:04d}"
+        item["sources"] = [{"title": "Официальный каталог продукции CleanExpo Moscow 2026",
+                            "url": "https://www.cleanexpo-moscow.ru/ru-RU/visitors/products.aspx", "date": DATE}]
         source_id = str(item.pop("participant_source_id", "") or "")
         if source_id in participant_by_source:
             item["participant_ids"] = [participant_by_source[source_id]]
